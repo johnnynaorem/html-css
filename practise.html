@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      display: flex;
+      background-color: black;
+      box-sizing: border-box;
+    }
+    .main{
+      color: rgb(100, 100, 47);
+      /* background-color: blue; */
+      width: 60%;
+      margin-left: 20px;
+      font-size: 20px;
+    }
+    .btns{
+      border-left: 2px solid white;
+      flex: 1;
+      /* background-color: aqua; */
+      padding-left: 20%;
+    }
+    .btn{
+      width: 200px;
+      height: 50px;
+      margin-bottom: 20px;
+      display: block;
+      background-color: transparent;
+      padding: 10px;
+      border-radius: 10px;
+      color: rgb(100, 100, 47);
+      border: none;
+      border: 1px solid white;
+    }
+    img{
+      width: 300px;
+    }
+    .joke, .quote, .riddle, .answer{
+      color: white;
+    }
+    .btnAns{
+      border: none;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    .action{
+      color: white;
+      text-transform: uppercase;
+    }
+    .btn:hover{
+      background-color: rgb(66, 7, 228);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+ <div class="main">
+  <h3>Output</h3>
+  <p id="mem">Programmer memes</p>
+  <div id="imgContent"></div>
+  <p>Tell me something funny</p>
+    <div id="jokeContent"></div>
+  <p>Give me a wisdom...</p>
+    <div id="quoteContent"></div>
+  <p>I want a riddle</p>
+  <div id="riddleContent"></div>
+ </div>
+ <div class="btns">
+  <p class="action">Actions</p>
+  <button onclick="showMeme()" class="btn">Show a meme</button>
+  <button onclick="showJoke()" class="btn">Tell Me a joke</button>
+  <button onclick="showQuote()" class="btn">Random quotes</button>
+  <button onclick="riddleShow()" class="btn">Riddle me</button>
+  <button onclick="answer()" class="btn btnAns">Rveal answer</button>
+  
+ </div>
+ <script src="practise.js"></script>
+</body>
+</html>

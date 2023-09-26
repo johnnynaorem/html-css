@@ -1,0 +1,58 @@
+html{
+  box-sizing: border-box;
+  margin: 0;
+  width: 600px;
+  /* background-color: 1px solid black; */
+}
+.header{
+  margin-top: 20px;
+  background-color: rgb(213, 223, 223);
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.footer{
+  /* display: flex; */
+  width:100%;
+
+}
+.line-height{
+  line-height: 23px;
+}
+.subscription{
+  background-color: rgb(61, 175, 175);
+  width: 50%;
+  /* padding: 20px; */
+  display: inline-block;
+}
+.subscription-header, .price-rate, .permonth, .fullAccess{
+  margin: 0;
+}
+.fullAccess{
+  margin-left: 10px;
+}
+.subscription-header,.price-rate{
+  margin: 10px;
+}
+button{
+  background-color: green;
+  color: white;
+  border: none;
+  width: 90%;  
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.about{
+  /* padding-left: 30px; */
+  background-color: rgba(10, 210, 224, 0.868);
+  width: 50%;
+  color: white;
+  display: inline-block;
+}
+.price{
+  display: flex;
+  align-items: center;
+}
+
